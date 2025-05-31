@@ -17,7 +17,7 @@ const startServer = async() => {
             console.log(`Server running at http://localhost:${PORT}`)
                 });
     } catch (error) {
-        console.log('Database connection failed');
+        console.log('Database connection failed', error);
         process.exit(1);
     }
 };
