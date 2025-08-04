@@ -1,16 +1,4 @@
-# Node.js
 node_modules/
 dist/
 .env
-.DS_Store
-
-# Logs
-logs/
-*.log
-
-# Build artifacts
-*.tsbuildinfo
-
-# OS or editor-specific
 .vscode/
-.idea/
